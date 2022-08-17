@@ -1,0 +1,10 @@
+[라임]7주차과제2_5
+
+const int val : const int형인 val , val의 값 수정 불가능
+const int* val: const int형의 포인터 값 val , val의 주소값은 수정이 가능하지만 , val의 값은 수정 불가능
+int* const val: int형의 포인터 값인 val , val의 주소값 수정 불가능 , val값은 수정 가능
+const int* const val : val값 , val의 주소값 모두 수정 불가능
+
+const int func ( int a) {}: 함수의 반환형이 const , 반환값 수정 불가능
+int func (const int a) {} : 함수의 매개변수가 const, 매개변수값 수정 불가능
+int func (int a) const {} : 해당 함수 내에서 멤버 변수의 값 수정 불가능
